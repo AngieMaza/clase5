@@ -1,0 +1,72 @@
+.container {
+  height: 100vh;
+  background-image: url(../../public/background.jpg);
+  background-size: cover; /* for IE9+, Safar 4.1+, Chrome 3.0+, Firefox 3.6+ */
+  -webkit-background-size: cover; /* for Safari 3.0 - 4.0 , Chrome 1.0 - 3.0 */
+  -moz-background-size: cover; /* optional for Firefox 3.6 */ 
+  -o-background-size: cover; /* for Opera 9.5 */
+  margin: 0; /* to remove the default white margin of body */
+  padding: 0; /* to remove the default white margin of body */
+  /* filter: brightness(50%); */
+}
+
+.content{
+  margin: 0 auto;
+  padding: 8rem;
+  text-align: center;
+  width: fit-content;
+}
+
+
+.heading{
+  font-size: 52px;
+  color: white;
+}
+
+
+.button {
+  align-items: center;
+  background-color: #FFFFFF;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: .25rem;
+  box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+  box-sizing: border-box;
+  color: rgba(0, 0, 0, 0.85);
+  cursor: pointer;
+  display: inline-flex;
+  font-family: system-ui,-apple-system,system-ui,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  justify-content: center;
+  line-height: 1.25;
+  margin: 0;
+  min-height: 3rem;
+  padding: calc(.875rem - 1px) calc(1.5rem - 1px);
+  position: relative;
+  text-decoration: none;
+  transition: all 250ms;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: baseline;
+  width: auto;
+}
+
+.button:hover,
+.button:focus {
+  border-color: rgba(0, 0, 0, 0.15);
+  box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+  color: rgba(0, 0, 0, 0.65);
+}
+
+.button:hover {
+  transform: translateY(-1px);
+}
+
+.button:active {
+  background-color: #F0F0F1;
+  border-color: rgba(0, 0, 0, 0.15);
+  box-shadow: rgba(0, 0, 0, 0.06) 0 2px 4px;
+  color: rgba(0, 0, 0, 0.65);
+  transform: translateY(0);
+}
